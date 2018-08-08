@@ -28,11 +28,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>gitlab-maven</id>
-      <url>http://localhost:3001/api/v4/projects/8/packages/maven</url>
+      <url>http://localhost:3001/api/v4/projects/1/packages/maven</url>
     </snapshotRepository>
     <repository>
       <id>gitlab-maven</id>
-      <url>http://localhost:3001/api/v4/projects/8/packages/maven</url>
+      <url>http://localhost:3001/api/v4/projects/1/packages/maven</url>
     </repository>
   </distributionManagement>
   <properties>
