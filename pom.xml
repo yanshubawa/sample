@@ -13,26 +13,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>com.mycompany.app</groupId>-->
-      <!--<artifactId>o-my-app</artifactId>-->
-      <!--<version>1.0-SNAPSHOT</version>-->
-    <!--</dependency>-->
   </dependencies>
-  <!--<distributionManagement>-->
-    <!--<snapshotRepository>-->
-      <!--<id>nexus-snapshots</id>-->
-      <!--<url>http://localhost:8081/nexus/content/repositories/snapshots</url>-->
-    <!--</snapshotRepository>-->
-  <!--</distributionManagement>-->
   <distributionManagement>
     <snapshotRepository>
-      <id>gitlab-maven</id>
-      <url>http://localhost:3001/api/v4/projects/1/packages/maven</url>
+      <id>gitlab-com</id>
+      <url>https://gitlab.com/api/v4/projects/7506594/packages/maven</url>
     </snapshotRepository>
     <repository>
-      <id>gitlab-maven</id>
-      <url>http://localhost:3001/api/v4/projects/1/packages/maven</url>
+      <id>gitlab-com</id>
+      <url>https://gitlab.com/api/v4/projects/7506594/packages/maven</url>
     </repository>
   </distributionManagement>
   <properties>
