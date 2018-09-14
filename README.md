@@ -2,8 +2,9 @@
 
 
 1. Automatically build new snapshot on new push to the master branch
-2. Uses Git repo for maven scm plugin (works with mvn release plugin)
+2. Uses Git repo for maven scm plugin
 3. Supports user access token for command line `mvn deploy`
+4. Works with `mvn release:prepare` and `mvn release:perform` commands
 
 ## Using Maven CLI
 
