@@ -28,3 +28,8 @@ you need to add `gitlab-com` server section to your `~/.m2/settings.xml`
    </servers>
  </settings>
 ```
+
+## Forking
+
+Once you fork this project, make sure to replace project URL and ID in `pom.xml`. 
+See https://gitlab.com/gitlab-org/examples/mvn-example/commit/e6be5e54893dc882571536979ae209649b21003a for example. 
