@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -32,6 +32,6 @@
     <connection>scm:git:https://gitlab.com/gitlab-org/examples/mvn-example.git</connection>
     <url>https://gitlab.com/gitlab-org/examples/mvn-example</url>
     <developerConnection>scm:git:https://gitlab.com/gitlab-org/examples/mvn-example.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>my-app-1.4</tag>
   </scm>
 </project>
