@@ -17,11 +17,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>gitlab-com</id>
-      <url>https://gitlab.com/api/v4/projects/8377576/packages/maven</url>
+      <url>https://gitlab.com/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
     </snapshotRepository>
     <repository>
       <id>gitlab-com</id>
-      <url>https://gitlab.com/api/v4/projects/8377576/packages/maven</url>
+      <url>https://gitlab.com/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
     </repository>
   </distributionManagement>
   <properties>
@@ -29,9 +29,9 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   <scm>
-    <connection>scm:git:https://gitlab.com/gitlab-org/examples/mvn-example.git</connection>
-    <url>https://gitlab.com/gitlab-org/examples/mvn-example</url>
-    <developerConnection>scm:git:https://gitlab.com/gitlab-org/examples/mvn-example.git</developerConnection>
+    <connection>scm:git:${env.CI_REPOSITORY_URL}</connection>
+    <url>${env.CI_PROJECT_URL}</url>
+    <developerConnection>scm:git:${env.CI_REPOSITORY_URL}</developerConnection>
     <tag>HEAD</tag>
   </scm>
 </project>

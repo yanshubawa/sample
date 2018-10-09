@@ -1,7 +1,6 @@
 deploy:
   script:
     - 'cp ci_settings.xml /root/.m2/settings.xml'
-    - 'sed -i "s/CI_JOB_TOKEN/${CI_JOB_TOKEN}/g" /root/.m2/settings.xml'
     - 'mvn deploy'
   only:
     - master
