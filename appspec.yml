@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: ./SampleMaven.war
+  - source: ./target/SampleMaven.war
     destination: /opt/apache-tomcat-9.0.37/webapps
