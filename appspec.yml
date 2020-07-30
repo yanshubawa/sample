@@ -3,3 +3,8 @@ os: linux
 files:
   - source: ./target/SampleMaven.war
     destination: /opt/apache-tomcat-9.0.37/webapps
+permissions:
+  - object: /opt/apache-tomcat-9.0.37/webapps/SampleMaven.war
+    mode: 777
+    type:
+      - file
