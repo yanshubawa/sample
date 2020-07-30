@@ -23,7 +23,7 @@ public class WelcomeController {
     }
 
     public String getMessage() {
-        return "Hello World - Deployment Success AWS Demo";
+        return "Hello World - Deployment Success AWS Demo Final";
     }
 
 }
