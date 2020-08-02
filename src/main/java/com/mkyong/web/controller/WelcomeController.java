@@ -23,7 +23,7 @@ public class WelcomeController {
     }
 
     public String getMessage() {
-        return "Hello World - AWS Code Deploy Service ";
+        return "Hello World- AWS CODE DEPLOY 100";
     }
 
 }
