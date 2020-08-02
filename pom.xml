@@ -69,6 +69,12 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+		<dependency>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-deploy-plugin</artifactId>
+		    <version>3.0.0-M1</version>
+		</dependency>
 
     </dependencies>
     <build>
@@ -94,8 +100,9 @@
                 <version>3.2.2</version>
             </plugin>
              <plugin>
-                <artifactId>maven-deploy-plugin</artifactId>
-               	<version>3.0.0-M1</version>
+                <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-deploy-plugin</artifactId>
+			    <version>3.0.0-M1</version>
                 <configuration>
                 	<deployAtEnd>true</deployAtEnd>
                 </configuration>
