@@ -104,5 +104,4 @@
         <url>https://yanshubawa.jfrog.io/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
-
 </project>
