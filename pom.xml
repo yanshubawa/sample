@@ -91,14 +91,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.0.0-M1</version>
-                <configuration>
-                	<deployAtEnd>true</deployAtEnd>
-                </configuration>
+                <version>3.2.2</version>
             </plugin>
              <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
-                <version>3.2.2</version>
+               	<version>3.0.0-M1</version>
+                <configuration>
+                	<deployAtEnd>true</deployAtEnd>
+                </configuration>
             </plugin>
         </plugins>
     </build>
