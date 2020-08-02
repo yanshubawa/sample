@@ -23,7 +23,7 @@ public class WelcomeController {
     }
 
     public String getMessage() {
-        return "Hello World -AWS Code Deploy with Jfrog ";
+        return "Hello World -AWS Code Deploy with Jfrog Final ";
     }
 
 }
