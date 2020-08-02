@@ -97,5 +97,12 @@
 
         </plugins>
     </build>
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>yanshubawa-artifactory-primary-0-snapshots</name>
+        <url>https://yanshubawa.jfrog.io/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
