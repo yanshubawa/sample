@@ -23,7 +23,7 @@ public class WelcomeController {
     }
 
     public String getMessage() {
-        return "Hello World- AWS CODE  deploy  wednesday result ";
+        return "Hello World- AWS CODE  deploy 12345 ";
     }
 
 }
